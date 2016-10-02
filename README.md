@@ -1,5 +1,5 @@
 # packer-xubuntu-xenial
-Packer image creation script for Xubuntu 16.04 (Xenial Xerus).
+Packer image creation script for Xubuntu 16.04 (Xenial Xerus), arm64.
 
 Adapted from the Ubuntu server Packer scripts from https://github.com/chef/bento.
 
