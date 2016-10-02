@@ -1,0 +1,4 @@
+/builds/*.box
+/iso/*.iso
+/packer-*/
+/packer_cache/
