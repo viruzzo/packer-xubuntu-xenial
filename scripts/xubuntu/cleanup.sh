@@ -39,4 +39,8 @@ apt-get -y purge popularity-contest;
 apt-get -y autoremove;
 apt-get -y clean;
 
+# Reset APT configuration (i.e. proxy settings)
+rm -f /etc/apt/apt.conf
+
+# Remove VirtualBox Guest Additions install media
 rm -f VBoxGuestAdditions_*.iso VBoxGuestAdditions_*.iso.?;
