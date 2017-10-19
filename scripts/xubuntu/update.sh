@@ -6,6 +6,9 @@ ubuntu_major_version="`echo $ubuntu_version | awk -F. '{print $1}'`";
 # Disable release-upgrades
 sed -i.bak 's/^Prompt=.*$/Prompt=never/' /etc/update-manager/release-upgrades;
 
+# Increase retries when doenloading packages
+echo 'Acquire::Retries 5;' >> /etc/apt/apt.conf
+
 # Update the package list
 apt-get -y update;
 
