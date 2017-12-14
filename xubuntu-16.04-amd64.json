@@ -96,7 +96,8 @@
         "scripts/xubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
       ],
-      "type": "shell"
+      "type": "shell",
+      "expect_disconnect": true
     }
   ],
   "variables": {
